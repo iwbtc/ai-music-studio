@@ -1,3 +1,5 @@
+> GitHub Release 安装包资产名：`AI-Music-Studio-Setup-2.4.0.exe`（本地构建产物为 `AI音乐工作室-Setup-2.4.0.exe`）；SHA256 见 Release 附带的 `SHA256SUMS.txt`。
+
 # v2.4.0 发布说明（AI 快速混音反馈）
 
 发布日期：2026-10-26  
