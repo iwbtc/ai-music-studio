@@ -1,0 +1,15 @@
+# 普通文本自动换行；Windows 脚本保留 CRLF
+* text=auto
+
+# 二进制资源
+*.sf2 binary
+*.flac binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.asar binary

@@ -1,0 +1,19 @@
+{
+  "name": "ai-music-studio-desktop",
+  "version": "2.4.0",
+  "private": true,
+  "description": "AI Music Studio desktop shell (Electron)",
+  "type": "commonjs",
+  "main": "main.cjs",
+  "author": "AI 音乐工作室",
+  "license": "MIT",
+  "scripts": {
+    "icon": "node ../scripts/make-icon.mjs",
+    "smoke": "electron main.cjs --smoke-test",
+    "dist": "node build-exe.mjs"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^45.0.0"
+  }
+}

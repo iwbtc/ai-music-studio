@@ -1,0 +1,46 @@
+# 依赖
+node_modules/
+desktop/node_modules/
+.pnpm-store/
+
+# 构建产物
+dist/
+desktop/.stage/
+lib/client.js
+standalone/assets/app.js
+*.asar
+*.exe
+build-info.json
+
+# 运行数据（绝不入仓）
+data/
+**/data/exports/
+**/data/media/
+**/data/projects/
+**/data/legacy-v1/
+*.bak
+*.bak.json
+*.tmp
+
+# 测试/调试产物
+test/e2e/reports/
+test/e2e/shots/
+test/harness/exports/
+test/harness/material/
+coverage/
+*.test.log
+*.log
+
+# 本地第三方插件 fixture
+.dev-fixtures/
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# 截图只在 docs/images 保留
+screenshots/

@@ -1,0 +1,6 @@
+# dsh-ai-music-studio bundle patch
+# 把「AI 音乐工作室」双半区插件插入 profile 的 Loader 树。
+# id 是本插件行的稳定 id；name 必须等于 package.json name（客户端模块系统按它取 bundle）。
+- insert:
+    - id: ai-music-studio
+      name: "dsh-ai-music-studio"
